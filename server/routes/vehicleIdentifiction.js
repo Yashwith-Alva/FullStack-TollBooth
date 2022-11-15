@@ -9,7 +9,12 @@ router.post("/", async (req, res) => {
   const vehicleInfo = await vehicleRegister.findOne({
     where: { vehicleUniqueId: post.uniqueid },
   });
-  res.send(vehicleInfo);
+
+  if (vehicleInfo != null) {
+    res.send(vehicleInfo);
+  } else {
+    res.send(false);
+  }
 });
 
 module.exports = router;
