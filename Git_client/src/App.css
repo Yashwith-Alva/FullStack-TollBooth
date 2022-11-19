@@ -1,0 +1,571 @@
+/** Importing all font-family */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: local("./assets/fonts/Montserrat.ttf");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  src: local("./assets/fonts/Lato-Regular.ttf");
+}
+
+/*Default CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+/*!important doesn't allow overwrite from bootstrap*/
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #e0f2f2 !important;
+  color: white;
+  font-family: "Centra", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+/*My NavBar */
+li,
+a {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 20px;
+  color: #494d5f !important;
+  text-decoration: none !important;
+  list-style: none;
+}
+
+myNavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: white;
+  box-shadow: 0 1px 20px rgba(29, 34, 80, 0.7);
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  color: yellow;
+  font-weight: 500;
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  transition: all 0.3s ease 0s;
+  color: #0088a9;
+}
+
+.cta button {
+  color: white;
+  padding: 9px 25px;
+  background-color: #845bb3;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: #494d5f;
+}
+
+/* !Design Banner */
+.Carousel-Holder {
+  display: inline-flex;
+  position: relative;
+  margin: 2%;
+  width: 40%;
+}
+
+/* !App design */
+.App {
+  text-align: center;
+  background-color: whitesmoke;
+  margin: 0px;
+  padding: 0px;
+}
+
+.App-header {
+  background-color: #141414;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #ffd8c5;
+}
+
+/* Login Page form */
+.LoginForm {
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 50%;
+  border-radius: 50px;
+  background-color: #1dcdfe;
+  background-image: linear-gradient(#1dcdfe, #21d0b2);
+  box-shadow: 0 1px 20px rgba(29, 34, 80, 0.266);
+}
+
+.FormHeading {
+  margin: auto;
+  padding: 50px;
+  color: white;
+  font-weight: 800;
+  font-size: 50px;
+  text-shadow: #141414 3px 3px;
+}
+
+.FormContainer {
+  display: block;
+  color: white;
+}
+
+.FormContainer #inputLogin {
+  display: inline-block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.FormContainer button {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background-color: #2f455c;
+  color: white;
+  border-radius: 50px;
+  border-style: none;
+  width: 8rem;
+  height: 3rem;
+  font-weight: 600;
+  transition: linear 0.5s;
+}
+
+.FormContainer button:hover {
+  background-color: #0b0c10;
+  color: white;
+}
+
+.linkRef {
+  list-style: none;
+}
+
+.LableLogin {
+  display: inline-block;
+  font-size: large;
+  font-weight: 500;
+}
+
+.FormContainer span {
+  color: red;
+  display: block;
+}
+
+.SignUpForm {
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 50%;
+  border-radius: 50px;
+  background-color: #1dcdfe;
+  background-image: linear-gradient(#1dcdfe, #21d0b2);
+  box-shadow: 0 1px 20px rgba(29, 34, 80, 0.266);
+}
+
+.FormContainer-Signup .LableLogin {
+  font-size: large;
+  font-weight: 400;
+  display: inline-block;
+  width: 15%;
+}
+.FormContainer-Signup #inputLogin {
+  display: inline-block;
+  margin: 20px;
+}
+
+.FormContainer-Signup span {
+  color: red;
+  display: inline-flex;
+  font-size: smaller;
+  width: 200px;
+  overflow: hidden;
+}
+
+.FormContainer-Signup button {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background-color: #2f455c;
+  color: white;
+  border-radius: 50px;
+  border-style: none;
+  width: 8rem;
+  height: 3rem;
+  font-weight: 600;
+  transition: linear 0.5s;
+}
+
+.FormContainer-Signup button:hover {
+  background-color: black;
+}
+
+.ErrorTop {
+  color: red;
+}
+
+/* !User page related */
+.UserPage {
+  margin: auto;
+  margin-top: 80px;
+  width: 40%;
+}
+
+/* !Payment and registration Banner */
+leftdivDesign {
+  position: relative;
+  transform: scale(2, 2);
+  display: block;
+  width: 30%;
+  float: right;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(139, 238, 251, 0.558);
+}
+
+rightdivDesign {
+  transform: scale(2, 2);
+  display: block;
+  width: 30%;
+  float: right;
+  height: 100%;
+  border-radius: 80%;
+  background-color: rgba(122, 42, 28, 0.568);
+}
+
+.UPBanner {
+  font-family: Lato-Regular;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  height: 30em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 2em 12%;
+  overflow: hidden;
+}
+
+.LeftBox {
+  background-color: white;
+  margin: 5px;
+  flex-basis: 100%;
+  height: 70%;
+  border-radius: 10px;
+  border: 1px solid black;
+  transition: all 0.3s ease 0s;
+  margin-right: 60px;
+  overflow: hidden;
+  text-align: left;
+  padding: 2%;
+}
+
+.LeftBox:hover {
+  cursor: pointer;
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.5);
+  border: 0px;
+}
+
+.rightBox {
+  background-color: white;
+  height: 70%;
+  flex-basis: 100%;
+  margin: 5px;
+  border-radius: 10px;
+  border: 1px solid black;
+  overflow: hidden;
+  text-align: left;
+  padding: 2%;
+}
+
+.rightBox:hover {
+  cursor: pointer;
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.5);
+  border: 0px;
+}
+
+.LeftBoxDesign {
+  position: fixed;
+  background-color: #0b0c10;
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+
+/*background-color: #d0b0f4;*/
+.DivVehicle {
+  background-image: linear-gradient(to right, #ffbede, #a37cf0);
+  margin: auto;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  padding: 2%;
+}
+
+/* !Div middle info*/
+.DivMiddleInfo {
+  background-color: white;
+  height: 400px;
+}
+
+.DivMiddleInfo h1 {
+  font-family: Lato-Regular;
+}
+
+.DivMiddleSecondInfo {
+  background-color: #494d5f52;
+  height: 350px;
+}
+
+.UserFooter {
+  background-color: #494d5f;
+  height: 400px;
+}
+
+/* !Vehicle Info Comp*/
+.vehicleInfoLayout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 2%;
+  margin-left: 15%;
+}
+
+/* !Vehicle Registration */
+.VehicleForm {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  background-color: #3caea3;
+  box-shadow: rgba(0, 0, 0, 0.5) 10px 10px;
+  border-radius: 20px;
+  overflow: hidden;
+  text-justify: auto;
+}
+
+.FormTitle {
+  font-weight: 900;
+  font-size: 2em;
+  margin: auto;
+  padding: 20px;
+  text-shadow: #0b0c10 3px 3px;
+  color: #f4a261;
+}
+
+.FormContainer-VehicleReg {
+  margin: 10px;
+  padding: 10px;
+}
+
+.LableLogin {
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+  margin: 1em;
+  text-align: left;
+  display: inline-block;
+}
+
+.ExtrasField {
+  margin: auto;
+  margin-left: 1em;
+  border-style: none;
+  background-color: #3caea3;
+  border-radius: 5px;
+  border-bottom: 3px solid #141414;
+  text-align: left;
+}
+
+.ExtrasField {
+  background-color: white;
+  text-align: left;
+}
+
+.DisableDefault {
+  background-color: #141414;
+}
+
+.ErrorMsg {
+  color: red;
+  text-align: left;
+  display: inline;
+}
+
+.VRegButton {
+  background-color: #52d6f4;
+  border-style: none;
+  width: 5em;
+  height: 2em;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  border-radius: 10px;
+  box-shadow: #0b0c10 2px 2px;
+  transition: linear 1s;
+}
+
+.VRegButton:hover {
+  background-color: green;
+}
+
+.VehicleSelect {
+  color: red;
+}
+
+.VehicleForm #inputLogin {
+  color: green;
+  max-width: 180px;
+}
+
+.VehicleForm .VehicleSelect option {
+  background-color: #f4a261;
+}
+
+/* !Social Icons */
+span.navbar-text {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon {
+  display: inline-block;
+  margin-left: 14px;
+}
+
+.social-icon a {
+  width: 42px;
+  height: 42px;
+  background: rgba(217, 217, 217, 0.1);
+  display: inline-flex;
+  border-radius: 50%;
+  margin-right: 6px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.social-icon a::before {
+  content: "";
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  background-color: #b88746;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 0.3s ease-in-out;
+}
+
+.social-icon a:hover::before {
+  transform: scale(1);
+}
+
+.social-icon a img {
+  width: 40%;
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.social-icon a:hover img {
+  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%)
+    hue-rotate(346deg) brightness(95%) contrast(86%);
+}
+span.navbar-text {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon {
+  display: inline-block;
+  margin-left: 14px;
+}
+
+.social-icon a {
+  width: 42px;
+  height: 42px;
+  background: rgba(217, 217, 217, 0.1);
+  display: inline-flex;
+  border-radius: 50%;
+  margin-right: 6px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.social-icon a::before {
+  content: "";
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  background-color: #52d6f4;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 0.3s ease-in-out;
+}
+
+.social-icon a:hover::before {
+  transform: scale(1);
+}
+
+.social-icon a img {
+  width: 40%;
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.social-icon a:hover img {
+  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%)
+    hue-rotate(346deg) brightness(95%) contrast(86%);
+}
