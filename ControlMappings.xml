@@ -1,0 +1,527 @@
+<Options>
+    <Option OptionName="RunWalkToggle" Value="1" />
+    <Option OptionName="AimToggle" Value="0" />
+    <Option OptionName="ToggleCrouch" Value="1" />
+    <Option OptionName="DefenseToggle" Value="0" />
+    <Option OptionName="MovementDoublePress" Value="0" />
+    <Option OptionName="ShieldDoublePress" Value="0" />
+    <Option OptionName="InvertFalconryY" Value="0" />
+    <Option OptionName="DefaultRunWalk" Value="1" />
+    <Option OptionName="ControlPreset" Value="0" />
+    <Option OptionName="InMenuOption" Value="0" />
+</Options>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="MovementForward" Button="17" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="MovementBackward" Button="31" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="MovementLeft" Button="30" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="MovementRight" Button="32" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="Ram" Button="18" />
+</Control>
+<Control ReaderClass="MouseButton">
+    <Reader EndPoint="RamBlock" Button="1" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="Automovement" Button="45" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="Walk" Button="44" />
+</Control>
+<Control />
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="PakourUp" Button="56" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="GrabLedge" Button="46" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="Crouch" Button="46" />
+</Control>
+<Control ReaderClass="MouseButton">
+    <Reader EndPoint="CameraLock" Button="2" />
+</Control>
+<Control ReaderClass="MouseButton">
+    <Reader EndPoint="LightAttack" Button="0" />
+</Control>
+<Control ReaderClass="Combo">
+    <Reader EndPoint="HeavyAttack">
+        <SubReader ReaderClass="KeyboardButton">
+            <Reader Button="42" />
+        </SubReader>
+        <SubReader ReaderClass="MouseButton">
+            <Reader Button="0" />
+        </SubReader>
+    </Reader>
+</Control>
+<Control ReaderClass="Combo">
+    <Reader EndPoint="OverpowerAttack">
+        <SubReader ReaderClass="KeyboardButton">
+            <Reader Button="42" />
+        </SubReader>
+        <SubReader ReaderClass="KeyboardButton">
+            <Reader Button="33" />
+        </SubReader>
+    </Reader>
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="Shield" Button="42" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="Parry" Button="18" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="SmokeScreen" Button="19" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="FireBombs" Button="33" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="Dodge" Button="57" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="Assassinate" Button="33" />
+</Control>
+<Control ReaderClass="MouseButton">
+    <Reader EndPoint="Aim" Button="1" />
+</Control>
+<Control ReaderClass="MouseButton">
+    <Reader EndPoint="Shoot" Button="0" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="EquipTool" Button="5" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="SwitchMelee" Button="3" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="SwitchRanged" Button="4" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="PrimaryInteraction" Button="18" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="SecondaryInteraction" Button="19" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="Whistle" Button="16" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="Torch" Button="2" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="AnimusPulse" Button="47" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="Meditate" Button="50" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="EagleMode" Button="47" />
+</Control>
+<Control ReaderClass="MouseButton">
+    <Reader EndPoint="EagleMark" Button="0" />
+</Control>
+<Control ReaderClass="MouseButton">
+    <Reader EndPoint="EagleStop" Button="1" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="EagleFastTravel" Button="18" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="EagleAccelerate" Button="42" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="FalconryHideIcons" Button="57" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="CallVehicle" Button="16" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="VehicleBrake" Button="57" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="FollowRoad" Button="45" />
+</Control>
+<Control />
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="NewHippoBoost" Button="42" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="HippodromeAccelerate" Button="17" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="LookBack" Button="16" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="Map" Button="50" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="FalconAttack" Button="33" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="MenuInventory" Button="23" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="MenuGear" Button="21" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="MenuAbilities" Button="22" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="MenuQuests" Button="15" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="CameraUp" Button="200" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="CameraDown" Button="208" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="CameraLeft" Button="203" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="CameraRight" Button="205" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="Photomode" Button="61" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="BenchmakrCycleVisibilityMode" Button="59" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="BoatBoost" Button="57" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="NavalRam" Button="57" />
+</Control>
+<Control ReaderClass="KeyboardButton">
+    <Reader EndPoint="NavalAimCatapults" Button="56" />
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_Torch" Button="7" />
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_BoatBoost" Button="12" />
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_Resume" Button="3" />
+</Control>
+<Control ReaderClass="Option">
+    <Reader EndPoint="Pad_Interact" Option="ControlPreset">
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="2" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="14" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="2" />
+        </SubReader>
+    </Reader>
+</Control>
+<Control ReaderClass="Option">
+    <Reader EndPoint="Pad_Attack" Option="ControlPreset">
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="13" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="1" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="13" />
+        </SubReader>
+    </Reader>
+</Control>
+<Control ReaderClass="Option">
+    <Reader EndPoint="Pad_HeavyAttack" Option="ControlPreset">
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="12" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="2" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="12" />
+        </SubReader>
+    </Reader>
+</Control>
+<Control ReaderClass="Option">
+    <Reader EndPoint="Pad_Crouch" Option="ControlPreset">
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="3" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="13" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="15" />
+        </SubReader>
+    </Reader>
+</Control>
+<Control ReaderClass="Option">
+    <Reader EndPoint="Pad_CamLock" Option="ControlPreset">
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="15" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="15" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="11" />
+        </SubReader>
+    </Reader>
+</Control>
+<Control ReaderClass="Option">
+    <Reader EndPoint="Pad_ParkourAction" Option="ControlPreset">
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="0" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="12" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="0" />
+        </SubReader>
+    </Reader>
+</Control>
+<Control ReaderClass="Option">
+    <Reader EndPoint="Pad_Roll" Option="ControlPreset">
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="1" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="3" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="1" />
+        </SubReader>
+    </Reader>
+</Control>
+<Control ReaderClass="Option">
+    <Reader EndPoint="Pad_SecondaryInteract" Option="ControlPreset">
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="14" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="14" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="3" />
+        </SubReader>
+    </Reader>
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_AlternateRangeWeapon" Button="5" />
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_DraggedRecover" Button="0" />
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_RamBlock" Button="11" />
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_FollowRoad" Button="0" />
+</Control>
+<Control ReaderClass="Option">
+    <Reader EndPoint="Pad_ParkourDown" Option="ControlPreset">
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="3" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="13" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="3" />
+        </SubReader>
+    </Reader>
+</Control>
+<Control ReaderClass="Option">
+    <Reader EndPoint="Pad_Meditate" Option="ControlPreset">
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="8" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="8" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="15" />
+        </SubReader>
+    </Reader>
+</Control>
+<Control ReaderClass="Option">
+    <Reader EndPoint="Pad_Parry" Option="ControlPreset">
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="3" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="13" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="3" />
+        </SubReader>
+    </Reader>
+</Control>
+<Control ReaderClass="Option">
+    <Reader EndPoint="Pad_SmokeScreen" Option="ControlPreset">
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="2" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="0" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="2" />
+        </SubReader>
+    </Reader>
+</Control>
+<Control ReaderClass="Option">
+    <Reader EndPoint="Pad_Falconry" Option="ControlPreset">
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="6" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="6" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="6" />
+        </SubReader>
+    </Reader>
+</Control>
+<Control ReaderClass="Option">
+    <Reader EndPoint="Pad_AnimusPulse" Option="ControlPreset">
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="6" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="6" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="14" />
+        </SubReader>
+    </Reader>
+</Control>
+<Control ReaderClass="Option">
+    <Reader EndPoint="Pad_GoToMap" Option="ControlPreset">
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="8" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="8" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="8" />
+        </SubReader>
+    </Reader>
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_EquipTool" Button="5" />
+</Control>
+<Control ReaderClass="Option">
+    <Reader EndPoint="Pad_Drop" Option="ControlPreset">
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="12" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="2" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="3" />
+        </SubReader>
+    </Reader>
+</Control>
+<Control ReaderClass="Option">
+    <Reader EndPoint="Pad_Assassinate" Option="ControlPreset">
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="2" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="0" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="2" />
+        </SubReader>
+    </Reader>
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_AlternateMelee" Button="7" />
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_FullThrottle" Button="12" />
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_HippoBoost" Button="0" />
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_Brake" Button="1" />
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_Ramming" Button="3" />
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_NavalRam" Button="0" />
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_NavalAimCatapults" Button="13" />
+</Control>
+<Control ReaderClass="Option">
+    <Reader EndPoint="Pad_FireBombs" Option="ControlPreset">
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="2" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="0" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="2" />
+        </SubReader>
+    </Reader>
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_AimFireButton" Button="12" />
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_SummonRideable" Button="4" />
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_AttractAttention" Button="4" />
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_EagleMark" Button="25" />
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_EagleFastTravel" Button="1" />
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_EagleStop" Button="10" />
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_EagleAttack" Button="2" />
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_EagleAccelerate" Button="12" />
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_FalconryHideIcons" Button="11" />
+</Control>
+<Control ReaderClass="PadButton">
+    <Reader EndPoint="Pad_LookBack" Button="15" />
+</Control>
+<Control ReaderClass="Option">
+    <Reader EndPoint="Pad_Shield" Option="ControlPreset">
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="11" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="11" />
+        </SubReader>
+        <SubReader ReaderClass="PadButton">
+            <Reader Button="11" />
+        </SubReader>
+    </Reader>
+</Control>
