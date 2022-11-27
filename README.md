@@ -27,3 +27,13 @@ Setup Server:
    - add an extra folder called route from above
    - go to config folder and config.json
         - in development: Update ur sql workbench password and Database in which u want to store.
+
+
+
+React 
+React-Bootstrap
+Express
+Sequelize
+Yup
+Formik
+Fastag
